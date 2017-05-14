@@ -1,0 +1,142 @@
+// |--------------------------------------------------------------------------
+// | Additional Bootstrap colors
+// |--------------------------------------------------------------------------
+// |
+
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+
+// Body colors
+@body-bg-secondary: @body-bg;
+@body-bg-tertiary: @body-bg;
+@body-bg-quaternary: @body-bg;
+
+// Border colors
+@border-color: #eee;
+@border-color-highlighted: @brand-primary;
+@border-color-light: lighten(@border-color, 15%);
+@border-color-dark: darken(@border-color, 15%);
+
+// Text colors
+@text-color-highlighted: @brand-primary;
+@text-color-light: @text-muted;
+@text-color-dark: darken(@text-color, 15%);
+
+// Secondary
+@brand-secondary: #2ecc71;
+
+@btn-secondary-color: #fff;
+@btn-secondary-bg: @brand-secondary;
+@btn-secondary-border: darken(@btn-secondary-bg, 5%);
+
+@label-secondary-bg: @brand-secondary;
+
+@panel-secondary-text: #fff;
+@panel-secondary-border: @brand-secondary;
+@panel-secondary-heading-bg: @brand-secondary;
+
+// Tertiary
+@brand-tertiary: #2590fb;
+
+@btn-tertiary-color: #fff;
+@btn-tertiary-bg: @brand-tertiary;
+@btn-tertiary-border: darken(@btn-tertiary-bg, 5%);
+
+@label-tertiary-bg: @brand-tertiary;
+
+@panel-tertiary-text: #fff;
+@panel-tertiary-border: @brand-tertiary;
+@panel-tertiary-heading-bg: @brand-tertiary;
+
+// Quternary
+@brand-quaternary: #f0ad4e;
+
+@btn-quaternary-color: #fff;
+@btn-quaternary-bg: @brand-quaternary;
+@btn-quaternary-border: darken(@btn-quaternary-bg, 5%);
+
+@label-quaternary-bg: @brand-quaternary;
+
+@panel-quaternary-text: #fff;
+@panel-quaternary-border: @brand-quaternary;
+@panel-quaternary-heading-bg: @brand-quaternary;
+
+// --------------------------------------------------
+// Mixins
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Styling
+// --------------------------------------------------
+
+// Panels
+.panel-secondary {
+  .panel-variant(@panel-secondary-border, @panel-secondary-text, @panel-secondary-heading-bg, @panel-secondary-border);
+}
+.panel-tertiary {
+  .panel-variant(@panel-tertiary-border, @panel-tertiary-text, @panel-tertiary-heading-bg, @panel-tertiary-border);
+}
+.panel-quaternary {
+  .panel-variant(@panel-quaternary-border, @panel-quaternary-text, @panel-quaternary-heading-bg, @panel-quaternary-border);
+}
+
+// Buttons
+.btn-secondary {
+  .button-variant(@btn-secondary-color, @btn-secondary-bg, @btn-secondary-border);
+}
+.btn-tertiary {
+  .button-variant(@btn-tertiary-color, @btn-tertiary-bg, @btn-tertiary-border);
+}
+.btn-quaternary {
+  .button-variant(@btn-quaternary-color, @btn-quaternary-bg, @btn-quaternary-border);
+}
+
+// Labels
+.label-secondary {
+  .label-variant(@label-secondary-bg);
+}
+.label-tertiary {
+  .label-variant(@label-tertiary-bg);
+}
+.label-quaternary {
+  .label-variant(@label-quaternary-bg);
+}
+
+// --------------------------------------------------
+// Variants
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Responsive
+// --------------------------------------------------
+
+// Mobile - and up
+@media @breakpoint-mobile-and-up {}
+
+// Mobile - only
+@media @breakpoint-mobile-only {}
+
+// Tablet - and up
+@media @breakpoint-tablet-and-up {}
+
+// Tablet - only
+@media @breakpoint-tablet-only {}
+
+// Desktop - and up
+@media @breakpoint-desktop-and-up {}
+
+// Desktop - only
+@media @breakpoint-desktop-only {}
+
+// Large desktop - and up
+@media @breakpoint-large-desktop-and-up {}
+
+// Print
+@media print {}
+
+// Touch
+.touchevents {}
+
+// No touch
+.no-touchevents {}

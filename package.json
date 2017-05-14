@@ -1,0 +1,18 @@
+{
+  "name": "additional-bootstrap-colors",
+  "version": "1.0.0",
+  "description": "Provides additional color-variables and brand colors for use with Bootstrap 3.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjemmesidekongen/additional-bootstrap-colors.git"
+  },
+  "author": "Morten Nissen <mail@hjemmesidekongen.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hjemmesidekongen/additional-bootstrap-colors/issues"
+  },
+  "homepage": "https://github.com/hjemmesidekongen/additional-bootstrap-colors#readme"
+}
