@@ -22,6 +22,13 @@ $border-color-dark: darken($border-color, 15%) !default;
 $text-color-highlighted: $brand-primary !default;
 $text-color-light: $text-muted !default;
 $text-color-dark: darken($text-color, 15%) !default;
+$text-color-secondary: $text-color !default;
+
+// Headings colors
+$headings-color-highlighted: $brand-primary !default;
+$headings-color-light: $text-muted !default;
+$headings-color-dark: darken($headings-color, 15%) !default;
+$headings-color-secondary: $headings-color !default;
 
 // Secondary
 $brand-secondary: #2ecc71 !default;
