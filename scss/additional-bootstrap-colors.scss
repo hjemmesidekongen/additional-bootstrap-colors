@@ -27,7 +27,7 @@ $text-color-secondary: $text-color !default;
 // Headings colors
 $headings-color-highlighted: $brand-primary !default;
 $headings-color-light: $text-muted !default;
-$headings-color-dark: darken($headings-color, 15%) !default;
+$headings-color-dark: $text-color-dark !default;
 $headings-color-secondary: $headings-color !default;
 
 // Secondary
