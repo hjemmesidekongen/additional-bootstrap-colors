@@ -1,6 +1,6 @@
 {
   "name": "additional-bootstrap-colors",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Provides additional color-variables and brand colors for use with Bootstrap 3.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
